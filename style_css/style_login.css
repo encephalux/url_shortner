@@ -1,0 +1,59 @@
+.login{
+
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10%;
+    justify-content: center;
+    vertical-align: middle;
+}
+.erreur{
+    width: 65%;
+    height: 30px;
+    margin-top: 5%;
+    margin: 0 auto;
+    opacity: 0.7;
+}
+.email, .mot_de_passe, .bouton{
+    text-align: center;
+}
+.logo img{
+    width: 200px;
+}
+.logo{
+    width: 36%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+
+.mot_de_passe input, .email input{
+    width: 60%;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    border: none;
+    padding-left: 15px;
+    background-color: rgba(128, 128, 128, 0.1);
+}
+.bouton input{
+    color: white;
+    background-color: blue;
+    width: 51%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.bouton input[type="submit"]:hover {
+    transform: scale(1.05);
+}
+.email input::placeholder{
+    margin-left: 5%;
+    color: black;
+}
+
+.mot_de_passe input::placeholder{
+    color: black;
+
+}
