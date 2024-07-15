@@ -1,0 +1,20 @@
+version: "3.2"
+
+name: "url_shortner"
+
+services:
+  nginx:
+    build: docker/nginx
+    container_name: us_nginx
+    tty: true
+    ports:
+      - 80:80
+    volumes:
+      - ./:/var/www/html/
+    networks:
+      - us_net
+    environment:
+      - NGINX_PORT=80
+
+networks:
+  us_net:
