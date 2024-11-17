@@ -1,113 +1,176 @@
-.erreur{
-    width: 50%;
-    margin: 0 auto;
-    margin-top: 10%;
-    justify-content: center;
-
-}
-.phrase1, .phrase2{
-    text-align: center;
-    margin-bottom: 10%;
-}
-.logo img{
-    width: 200px;
-}
-.logo{
-    width: 36%;
-    margin: 0 auto;
-    margin-bottom: 10%;
-    margin-top: 5%;
-}
-.boutons {
-    display: flex;
-    width: 200px;
-    /*margin: 0 auto;*/
-    margin-left: 30%;
-}
-.btn_bleu input{
-    color: white;
-    background-color: blue;
-    border: none;
-    border-radius: 5px;
-    width: 90px;
-    height: 35px;
-    margin-right: 90px;
-}
-.non button{
-    border: none;
-    border-radius: 5px;
-    width: 90px;
-    height: 35px;
-    background-color: rgba(128, 128, 128, 0.1);
-    color: black;
-
-
-}
-.non button a{
-    text-decoration: none;
-    color: black;
-}
-.btn_bleu input[type="submit"]:hover {
-    transform: scale(1.05);
-}
-
-
-.login{
-
-    width: 50%;
-    margin: 0 auto;
-    margin-top: 10%;
-    justify-content: center;
-    vertical-align: middle;
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
 }
 .erreur{
-    width: 65%;
-    height: 30px;
-    margin-top: 5%;
+    width: 80%;
+    height: 40px;
     margin: 0 auto;
-    opacity: 0.7;
-}
-.email, .mot_de_passe, .bouton{
-    text-align: center;
-}
-.logo img{
-    width: 200px;
-}
-.logo{
-    width: 36%;
-    margin: 0 auto;
-    margin-bottom: 5%;
-    margin-top: 5%;
-}
-
-
-.mot_de_passe input, .email input{
-    width: 60%;
-    height: 30px;
-    border-radius: 5px;
-    margin-bottom: 5%;
-    border: none;
     padding-left: 15px;
-    background-color: rgba(128, 128, 128, 0.1);
-}
-.bouton input{
-    color: white;
-    background-color: blue;
-    width: 51%;
-    height: 30px;
-    border: none;
+    text-align: center;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 5%;
+    color:red;
     border-radius: 5px;
-    font-size: 15px;
+    background-color: rgba(255, 0, 0, 0.1);
+    font-size: 1em;
+}
+.hidden{
+    display: none;
+}
+.container{
+    width: 100%;
+    height: 520px;
+    background-color: white;
+    display: flex;
+}
+.formulaire_container{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.instruction{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+
+}
+.logo_form{
+    width: 80%;
+    height: 70%;
+    background-color: white;
+    margin: 0 auto;
+
+}
+.logo img{
+    width: 150px;
+}
+.logo{
+    background-color: white;
+    width: 150px;
+    margin: 0 auto;
+}
+.text_logo{
+    width: 250px;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 5%;
+    text-align: center;
+    color: #4D4D4D;
+}
+.form{
+    background-color: white;
+    margin-top: 8%;
+
+}
+.mot_de_passe input, .email input{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    border: none;
+    background-color: #F6F6F6;
+
+}
+.email, .mot_de_passe{
+    margin: 0 auto;
+    background-color: white;
+    width: 80%;
 }
 .bouton input[type="submit"]:hover {
     transform: scale(1.05);
 }
+.bouton input{
+    color: white;
+    background-color: #0084CA;
+    width: 40%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-left: 60%;
+}
+.bouton{
+    background-color: white;
+    width: 80%;
+    margin:0 auto;
+}
+.lien{
+    background-color: white;
+    margin-top: 5%;
+    text-align: center;
+}
+.lien a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 12px;
+
+}
 .email input::placeholder{
-    margin-left: 5%;
     color: black;
 }
-
 .mot_de_passe input::placeholder{
     color: black;
-
+}
+.gras{
+    width: 51%;
+    height: 65px;
+    background-color: white;
+    margin-top: 15%;
+    margin-left: 10%;
+    font-size: 30px;
+}
+.description{
+    width: 51%;
+    height: 100px;
+    background-color: white;
+    margin-left: 10%;
+    font-size: 15px;
+    margin-top: 8%;
+    color: #4D4D4D;
+}
+input[type="text"] {
+    padding-left: 4%;
+    outline: none;
+}
+input[type="password"]{
+    padding-left: 4%;
+    outline: none;
+}
+.bouton input[type="submit"]:hover {
+    transform: scale(1.05);
+}
+.lien a:hover{
+    color: #0084CA;
+}
+@media(max-width: 924px){
+    .gras{
+        height: 100px;
+    }
+}
+@media(max-width: 612px){
+    .gras{
+        height: 120px;
+        width: 60%;
+    }
+    .description {
+        width: 60%;
+    }
+}
+@media(max-width: 526px){
+    .instruction{
+        display:none;
+    }
+    .formulaire_container{
+        width: 100%;
+        margin-top: 8%;
+    }
 }

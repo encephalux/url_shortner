@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteBase /url_shortner/
+
+# Si le fichier ou le répertoire existe, ne rien faire
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Sinon, rediriger vers index.php et passer l'identifiant en paramètre
+RewriteRule ^(.+)$ index.php?identifiant=$1 [L,QSA]

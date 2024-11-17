@@ -1,14 +1,31 @@
-# url_shortner
-## CREATION DE LA PAGE DE CONNEXION
-* création de deux champs de formulaire
-* création d'un bouton pour créer un compte
-* création d'un bouton pour se connecter
-* utilisation de la biobliotheque 
-``` js
- <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
- ```
-de javascript pour afficher les messages erreurs lorsque l'utilisateur tente d'utiliser un email ou un mot de passe qui n'existe pas dans notre base de données.
-* On propose á l'utilisateur de créer un nouveau compte .
-* Lors de la création de compte ,on vérifie si l'email existe déjá.si il existe déjá on envoie un message "ce email existe déjá".
-* On vérifie également si le mot de passe contient 8 caractères 
-* Une fois le nouveau compte crée l'utilisateur  est dirigé vers la page to_short.php qui est pour le moment vide.
+# short URL
+# **Short URL Platform - README**
+
+## **Introduction**
+
+Bienvenue dans la plateforme **Short URL**, un système conçu pour faciliter le raccourcissement d'URL longues en des liens courts et faciles à partager. Ce projet a été développé dans le cadre d'un stage pratique à l'Institut Africain d'Informatique (IAI-TOGO) pour l'entreprise TIDD.
+
+## **Fonctionnalités**
+
+La plateforme **Short URL** offre les fonctionnalités suivantes :
+
+- **Raccourcissement des URL** : Convertir des liens longs en liens courts et personnalisables.
+- **Gestion des utilisateurs** : Ajouter, supprimer, et gérer les comptes des utilisateurs (employés et administrateurs).
+- **Historique des URL raccourcies** : Visualiser,supprimer l'historique des URL raccourcies.
+- **Connexion sécurisée** : Authentification des utilisateurs via une interface sécurisée.
+- **Changement de mot de passe** : Possibilité pour les utilisateurs de modifier leur mot de passe.
+
+## **Prérequis**
+
+Avant de lancer ce projet, assure-toi que ton environnement de développement dispose des éléments suivants :
+
+- **Serveur Web** : Apache (via XAMPP ou autre)
+- **PHP** : Version 7.4 ou supérieure
+- **MySQL** : Pour la gestion de la base de données
+- **PhpMyAdmin** : Pour gérer la base de données facilement
+- **Composer** : Pour la gestion des dépendances PHP
+- **PhpStorm** *(optionnel)* : IDE recommandé pour PHP
+
+## **Configuration du fichier htaccess**
+Nous avons également un fichier htaccess pour assurer la redirection.
+

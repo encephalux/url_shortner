@@ -1,0 +1,156 @@
+body{
+    padding: 0;
+}
+header {
+    background-color: white;
+    width: 100%;
+    height: 65px;
+    align-items: center;
+    display: flex;
+}
+.logo img {
+    width: 150px;
+}
+.logo {
+    width: 150px;
+    margin-left: 4%;
+}
+.liens {
+    display: inline-block;
+    width: 300px;
+    text-align: right;
+    height: 60px;
+    background-color: white;
+    align-items: center;
+    margin-left: 8%;
+}
+.liens li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 10%;
+    font-size: 15px;
+}
+.liens a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.858);
+}
+
+.fin {
+    display: flex;
+    width: 500px;
+    text-align: right;
+    height: 60px;
+    background-color: white;
+    align-items: center;
+    margin-left: 8%;
+}
+.deconnexion {
+    margin-left: 14%;
+}
+.deconnexion button {
+    color: white;
+    background-color: #0084CA;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+}
+.changer {
+    margin-left: 10%;
+}
+.changer a {
+    text-decoration: none;
+    color: #000000;
+}
+.erreur{
+    width: 65%;
+    height: 45px;
+    margin: 0 auto;
+    padding-left: 15px;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    justify-content: center;
+    color:red;
+    border-radius: 5px;
+    background-color: rgba(255, 0, 0, 0.1);
+    font-size: 0.8em;
+}
+.insertion{
+    background-color: rgba(0, 128, 0, 0.2);
+    color: green;
+    width: 65%;
+    height: 30px;
+    margin: 0 auto;
+    padding-left: 15px;
+    /*text-align: center;*/
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*justify-content: center;*/
+    border-radius: 5px;
+    font-size: 1em;
+}
+.hidden{
+    display: none;
+}
+.hidd{
+    display: none;
+}
+
+.formulaire{
+    width: 40%;
+    height: 350px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding-top:5%;
+    border-radius: 5px;
+}
+
+.mot_de_passe input, .email input{
+    width: 100%;
+    height: 30px;
+}
+.bouton input{
+    background-color: #0084CA;
+    color: white;
+}
+.email{
+    margin-bottom: 5%;
+}
+
+.email, .mot_de_passe{
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 5%;
+    width: 70%;
+}
+.bouton input{
+    color: white;
+    background-color: #0084CA;
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 0 auto;
+}
+.bouton{
+    background-color: white;
+    width: 40%;
+    margin:0 auto;
+    margin-top: 5%;
+}
+.email select{
+    width: 100%;
+    height: 30px;
+}
+fieldset{
+    border: 1px solid #0084CA;
+    border-radius: 5px;
+}
+fieldset legend{
+    color: #0084CA;
+}

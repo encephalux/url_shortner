@@ -1,0 +1,176 @@
+header{
+    background-color: white;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    display: flex;
+    margin-bottom: 100px;
+}
+.logo img{
+    width: 150px;
+}
+.logo{
+
+    width: 150px;
+    margin-left: 4%;
+}
+.liens{
+    display: inline-block;
+    width: 300px;
+    text-align: right;
+    height: 60px;
+    background-color: white;
+    align-items: center;
+    margin-left: 8%;
+
+}
+.liens li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 10%;
+    font-size: 15px;
+
+}
+.liens a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.858);
+}
+.lien a:hover{
+    color: #0084CA;
+}
+
+/*.liens ul li:nth-child(1) a {*/
+/*    color: #0084CA;*/
+/*}*/
+
+.fin{
+    display: flex;
+    width: 500px;
+    text-align: right;
+    height: 60px;
+    background-color: white;
+    align-items: center;
+    margin-left: 8%;
+
+}
+.deconnexion{
+    margin-left: 14%;
+
+}
+.deconnexion button{
+    color: white;
+    background-color: #0084CA;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+}
+.changer{
+    margin-left: 10%;
+
+}
+.changer a{
+    text-decoration: none;
+    color: #0084CA;
+}
+
+.container{
+    width: 40%;
+    height: 300px;
+    background-color: white;
+    margin:0 auto;
+}
+.chang_password{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    color: #0084CA;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.input_ancien{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 5%;
+}
+.input_nouveau{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 5%;
+}
+.input_nouveau input{
+    height: 30px;
+    width: 70%;
+    border-radius: 5px;
+}
+.input_ancien input{
+    height: 30px;
+    width: 70%;
+    border-radius: 5px;
+}
+input[type="password"]{
+    padding-left: 4%;
+    outline: none;
+}
+.bouton{
+    margin-top: 5%;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bouton input{
+    color: white;
+    background-color: #0084CA;
+    width: 40%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+.erreur{
+    color: red;
+    background-color: rgba(255, 0, 0, 0.1);
+    width: 70%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bouton input[type="submit"]:hover {
+    transform: scale(1.05);
+}
+.hidden{
+    display: none;
+}
+.succes{
+    color: green;
+    width: 70%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hid{
+    display: none;
+}

@@ -1,0 +1,211 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+.entete {
+    width: 100%;
+    background-color: white;
+    height: 140px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+header {
+    background-color: white;
+    width: 100%;
+    height: 65px;
+    align-items: center;
+    display: flex;
+}
+.logo img {
+    width: 150px;
+}
+.logo {
+    width: 150px;
+    margin-left: 4%;
+}
+.liens {
+    display: inline-block;
+    width: 300px;
+    text-align: right;
+    height: 60px;
+    background-color: white;
+    align-items: center;
+    margin-left: 8%;
+
+}
+.liens li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 10%;
+    font-size: 15px;
+}
+.liens a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.858);
+}
+.liens ul li:nth-child(3) a {
+    color: #0084CA;
+}
+.fin {
+    display: flex;
+    width: 500px;
+    text-align: right;
+    height: 60px;
+    background-color: white;
+    align-items: center;
+    margin-left: 8%;
+}
+.deconnexion {
+    margin-left: 14%;
+}
+.deconnexion button {
+    color: white;
+    background-color: #0084CA;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+}
+.changer {
+    margin-left: 10%;
+}
+.changer a {
+    text-decoration: none;
+    color: #000000;
+}
+.recherche {
+    background-color: white;
+    height: 60px;
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+.champ {
+    width: 65%;
+    display: flex;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #F6F6F6;
+}
+.champ input {
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #F6F6F6;
+    border: none;
+    outline: none;
+}
+.champ img {
+    width: 3%;
+    margin-left: 1%;
+}
+.btn_rechercher button {
+    color: white;
+    background-color: #0084CA;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+    width: 120px;
+    font-size: 15px;
+    margin-left: 25%;
+}
+.champ input::placeholder {
+    color: black;
+}
+input[type="text"] {
+    padding-left: 4%;
+}
+.bande_bleu {
+    width: 85%;
+    height: 45px;
+    margin: 0 auto;
+    display: flex;
+}
+.email {
+    width: 200px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+.mot_de_passe {
+    width: 200px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20%;
+    font-size: 15px;
+}
+.mot_de_passe a {
+    text-decoration: none;
+    color: #0084CA;
+}
+.delete {
+    width: 40px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 38%;
+    font-size: 15px;
+}
+.tableau .bande_bleu:nth-child(even) {
+    background-color: #F3FBFF;
+}
+.tableau .bande_bleu:nth-child(odd) {
+    background-color: white;
+}
+.plus img {
+    width: 40px;
+    height: 100%;
+}
+.tableau {
+    padding-top: 200px;
+
+}
+.message_suppression{
+    margin: 0 auto;
+    margin-left: 50%;
+    width: 440px;
+    height: 30px;
+    border: solid 1px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: rgba(0, 128, 0, 0.2);
+    color: green;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1em;
+}
+.message_suppression {
+    display: none;
+}
+
+.message_suppression:empty {
+    display: none;
+}
+
+.message_suppression:not(:empty) {
+    display: block;
+}
+.button-as-link {
+    background: none;
+    border: none;
+    color: #0084CA;
+    text-decoration: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 0;
+}
